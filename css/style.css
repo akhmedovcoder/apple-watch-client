@@ -210,3 +210,52 @@ a {
 }
 
 /* PRODUCT STYLE FINISHED */
+
+
+
+
+
+/* FOOTER STYLE START */
+
+.site__footer{
+  padding: 240px 0;
+  background-image: url(/images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__wrapper{
+  margin-left: 570px;
+}
+
+.footer__section-title{
+  width: 490px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.footer__section-desc{
+  width: 450px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-left: 40px;
+  border-left: 3px solid #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.footer__section-btn{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  padding: 12px 46px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #EA625C;
+}
+
+/* FOOTER STYLE FINISHED */
