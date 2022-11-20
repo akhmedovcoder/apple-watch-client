@@ -1,72 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url(/css/normalize.css);
 
-*{
+* {
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
-ul{
+ul {
   list-style: none;
   padding: 0;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-
-
-
-
-
 /* HEADER STYLE START */
 
-.site__header{
+.site__header {
   padding: 30px 0;
 }
 
-.container{
+.container {
   width: 100%;
   max-width: 1040px;
   margin: 0 auto;
 }
 
-.header__wrapper{
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
 }
 
-.header__nav{
+.header__nav {
   display: flex;
   justify-content: space-between;
   width: 463px;
 }
 
-.header__nav-list{
+.header__nav-list {
   display: flex;
   justify-content: space-between;
   width: 270px;
 }
 
-.header__nav-link{
+.header__nav-link {
   font-size: 15px;
-  font-weight: 400;
   line-height: 22.5px;
   color: #333333;
 }
 
-.header__ask{
+.header__ask {
   font-size: 15px;
-  font-weight: 400;
   line-height: 22.5px;
   color: #666666;
   border-bottom: 1px solid #333333;
 }
 
 /* HEADER STYLE FINISHED */
+
+/* HERO STYLE START */
+
+.hero__section{
+  padding-top: 140.46px;
+  background-image: url(/images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 587px 565px;
+  background-position: right bottom;
+  border-bottom: 2px solid #DDDDDD;
+  padding-bottom: 185px;
+}
+
+.hero__section-title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.hero__section-desc{
+  width: 450px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+  border-left: 3px solid #777777;
+  margin-bottom: 30px;
+  padding-left: 40px;
+}
+
+.hero__section-btn{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  padding: 12px 38.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #EA625C;
+}
+
+/* HERO STYLE FINISHED */
